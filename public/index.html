@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Frontend Mentor | FAQ Accordion Card</title>
+</head>
+
+<body class="font-kumbh bg-gradient-to-b from-soft-violet to-soft-blue">
+
+  <main class="flex items-center justify-center min-h-screen">
+
+    <div
+      class="card flex items-center w-[923px] h-[508px] bg-white rounded-3xl drop-shadow-2xl md:w-[327px] md:h-[534px] md:flex-col">
+
+      <!-- MOBILE IMAGE SECTION -->
+      <section class="image-mobile hidden md:block w-[236px] h-[180px] relative top-[-20%] left-[1%]">
+        <img class="object-cover" src="/images/illustration-woman-online-mobile.svg" alt="Woman using desktop" />
+        <img class="relative top-[-40%]" src="./images/bg-pattern-mobile.svg" alt="" />
+      </section>
+
+      <!-- DESKTOP IMAGE SECTION -->
+      <section class="image-desktop relative w-[450px] h-[100%] md:hidden">
+        <img class="relative z-10 left-[-92px] top-[200px]" src="/images/illustration-box-desktop.svg"
+          alt="Illustration of a box" />
+
+        <div class="desktop relative top-[-36.5%] overflow-hidden w-[450px] h-[100%]">
+          <img class="absolute left-[-75px] top-[15%]" src="/images/illustration-woman-online-desktop.svg"
+            alt="illustration of a woman using a destop" />
+          <img class="relative transform scale-[2] left-[-290px] top-[-20px]" src="/images/bg-pattern-desktop.svg"
+            alt="" />
+        </div>
+      </section>
+
+      <!-- THE FAQ SECTION -->
+
+      <section class="flex flex-col md:justify-center w-[350px] md:h-[250px] md:w-[278px]">
+        <h1 class="text-4xl text-very-dark-desaturated-blue font-w-bold pb-6 md:text-center">
+          FAQ
+        </h1>
+
+        <div class="question-answer">
+
+          <div class="question flex items-center justify-between h-16 border-b border-b-light-grayish-blue">
+            <p class="question-inactive cursor-pointer hover:text-soft-red">
+              How many team members can I invite?
+            </p>
+            <img class="arrow w-2 h-2 cursor-pointer" src="/images/icon-arrow-down.svg" alt="cursor-pointer" />
+          </div>
+
+          <p class="answer">
+            You can invite up to 2 additional users on the Free plan. There is
+            no limit on team members for the Premium plan.
+          </p>
+
+        </div>
+
+
+        <div class="question-answer">
+
+          <div class="question flex items-center justify-between h-16 border-b border-b-light-grayish-blue">
+            <p class="question-inactive cursor-pointer hover:text-soft-red">
+              What is the maximum file upload size?
+            </p>
+            <img class="arrow w-2 h-2 cursor-pointer" src="/images/icon-arrow-down.svg" alt="cursor-pointer" />
+          </div>
+
+          <p class="answer">
+            No more than 2GB. All files in your account must fit your allotted
+            storage space.
+          </p>
+
+        </div>
+
+
+        <div class="question-answer">
+
+          <div class="question flex items-center justify-between h-16 border-b border-b-light-grayish-blue">
+            <p class="question-inactive cursor-pointer hover:text-soft-red">
+              How do I reset my password?
+            </p>
+            <img class="arrow w-2 h-2 cursor-pointer" src="/images/icon-arrow-down.svg" alt="cursor-pointer" />
+          </div>
+
+          <p class="answer">
+            Click “Forgot password” from the login page or “Change password”
+            from your profile page. A reset link will be emailed to you.
+          </p>
+
+        </div>
+
+
+        <div class="question-answer">
+
+          <div class="question flex items-center justify-between h-16 border-b border-b-light-grayish-blue">
+            <p class="question-inactive cursor-pointer hover:text-soft-red">
+              Can I cancel my subscription?
+            </p>
+            <img class="arrow w-2 h-2 cursor-pointer" src="/images/icon-arrow-down.svg" alt="" />
+          </div>
+
+          <p class="answer">
+            Yes! Send us a message and we’ll process your request no questions
+            asked.
+          </p>
+        </div>
+
+
+        <div class="question-answer">
+
+          <div class="question flex items-center justify-between h-16 border-b border-b-light-grayish-blue">
+            <p class="question-inactive cursor-pointer hover:text-soft-red">
+              Do you provide additional support?
+            </p>
+            <img class="arrow w-2 h-2 cursor-pointer" src="/images/icon-arrow-down.svg" alt="" />
+          </div>
+
+          <p class="answer">
+            Chat and email support is available 24/7. Phone lines are open
+            during normal business hours.
+          </p>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
